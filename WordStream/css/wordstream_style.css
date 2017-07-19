@@ -1,0 +1,179 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: sans-serif;
+}
+
+#wrapper{
+  margin: 0 auto;
+  padding: 5px;
+  width: 1000px;
+  opacity: 0.8;
+}
+
+#header{
+  background-color: white;
+  margin-bottom: 10px;
+}
+  #header ul{
+    margin-left: 520px;
+    margin-right:10px;
+    display: inline-block;
+  }
+  #header ul li, #login_button, #logo, h1{
+    display: inline-block;
+  }
+  #header ul{
+      border: 0 groove silver;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 5px 5px;
+      padding: 0 0.5em 0.5em 0.7em;
+      background-color: #ebfafa;
+        }
+  #header a{
+      text-decoration: none;
+      color: black;
+  }
+  #login{
+    background: linear-gradient(#99b3ff, blue);
+  }
+  #logo{
+    margin: 10px;
+  }
+  #header h1{
+    vertical-align: top;
+    margin-top: 10px;
+    color: silver;
+  }
+  h1 span{
+    color: blue;
+  }
+  #header h2{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    opacity: 0.7;
+  }
+
+
+#sidebar{
+   width:220px;
+   display: inline-block;
+   margin-right: 5px;
+   margin-top: 50px;
+   padding: 10px;
+}
+  #sidebar p{
+    font-size:13px;
+  }
+  #scheduledemo, #freetrial,#getgradedtoday,#getstartedtoday,#login{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 20px;
+    color:white;
+    font-weight: bold;
+    margin: 5px 0 ;
+  }
+  #scheduledemo{
+    width: 220px;
+    background: linear-gradient(#3399ff,blue,#3399ff);
+  }
+  #freetrial{
+    width: 220px;
+    background: linear-gradient(#ff9980,red,#ff9980);
+  }
+  #getgradedtoday{
+    background-color: blue;
+ }
+  #sidebar #nocredit{
+   margin-left: 35px;
+   /*text-align:center;*/
+  }
+
+  .straightline{
+    border: 1px solid silver;
+    margin: 10px 0;
+  }
+
+  #sidebar_ad{
+    position: absolute;
+    width: 180px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  #sidebar_ad p{
+  font-size:13px;
+  margin-bottom: 10px;
+  }
+  #box{
+    position: relative;
+  }
+#main_content{
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  width: 750px;
+}
+  #main_content img, h5, #forinfo{
+    display: inline-block;
+    vertical-align: top;
+  }
+  #main_content h5{
+    margin-top: 7px;
+  }
+  #forinfo{
+    margin-left: 440px;
+    width: 230px;
+  }
+  #forinfo img, #info{
+    display: inline-block;
+  }
+  #info{
+    width: 200px;
+  }
+  #main_content #number{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+  }
+#main_content p, li{
+  font-size: 14px;
+  padding: 2px 0;
+}
+#main_content ul{
+  margin: 10px 0 20px 30px;
+  list-style: square;
+}
+#getstartedtoday{
+  background: linear-gradient(#80ff80,green,#80ff80);
+  border: 1px groove black;
+}
+
+#box_ad img, #text_ad{
+  display: inline-block;
+}
+#text_ad{
+  width:500px;
+}
+#box_ad{
+border: 4px solid blue;
+padding: 5px;
+width: 700px;
+margin: 10px 0;
+}
+h4{
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.redtext{
+  color:red;
+  font-weight: bold;
+}
+
+.bluetext{
+  color:blue;
+}
+.bold{
+  font-weight: bold;
+}
