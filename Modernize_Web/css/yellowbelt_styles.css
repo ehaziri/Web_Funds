@@ -1,0 +1,159 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: "Tahoma";
+ font-size:14px;
+}
+
+#wrapper{
+  margin: 0 auto;
+  width: 975px;
+  background-color: lightgrey;
+}
+
+header{
+  height: 80px;
+  background-color: black;
+}
+header p, header img{
+  display: inline-block;
+  vertical-align: top;
+}
+  header p{
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+  header img{
+    margin-left: 10px;
+  }
+
+#nav li{
+  display: inline;
+  opacity: .7;
+}
+  #nav li:first-child{
+    opacity: 1;
+  }
+  #nav ul{
+    margin-left: 20px;
+  }
+  #nav{
+    height: 30px;
+    background: linear-gradient( #595959,#333333, black);
+  }
+  #nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  #nav li:after{
+    content:"|";
+    font-size: 15px;
+    padding: 5px;
+    color:darkgrey;
+    padding: 0px 6px;
+  }
+  #nav li:last-child:after{
+    margin-left: 530px;
+    font-size: 20px;
+  }
+#main_content{
+  background-color: black;
+}
+
+  #main_content img{
+    margin-bottom: 10px;
+  }
+  #main_content #border{
+   border-bottom: 3px solid silver;
+  }
+
+#main_content_1{
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  #main_content_1 img, .main_text{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .main_text{
+    width:170px;
+  }
+  .main_text h4{
+    color: orange;
+  }
+
+#main_content_2{
+  background: linear-gradient(-45deg,black,#595959,black,#595959,black,#595959,black);
+  padding: 30px 10px;
+}
+  #main_content_2 h1{
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+#main_content_2 button, #main_content_2_left{
+ display: inline-block;
+ vertical-align: top;
+}
+#main_content_2_left{
+  width: 720px;
+  height: 70px;
+  margin-left:15px;
+  opacity: .9;
+}
+
+#main_content_3{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#main_content_3 h3, #main_content_3 p, .box {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.box{
+  width: 210px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+  .box img{
+    border: 5px solid grey;
+  }
+
+#backtotop{
+    margin-left: 900px;
+    font-size: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+p{
+  color:white;
+  font-size: 12px;
+  margin-top: 5px;
+}
+button{
+  background: linear-gradient(orange, #ff6600);
+  color:white;
+  padding: 5px 20px;
+  border-radius:3px;
+  border-color: transparent;
+  margin-left: 100px;
+  margin-top:15px;
+}
+
+.orange_text{
+  color:orange;
+  font-weight: bold;
+}
+
+.left_align{
+ margin-left: 750px;
+}
+h3{
+  color:white;
+  font-weight: normal;
+}
