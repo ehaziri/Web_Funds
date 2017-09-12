@@ -1,0 +1,28 @@
+
+#tranzicion, #tranzicion div.tranzicionInner {
+    width:900px;height:306px;
+}
+
+#tranzicion {
+	background:#fff;
+	position:relative;
+	margin:0; 
+    box-shadow: 0px 1px 5px #999999;
+}
+
+#tranzicion div.navBulletsWrapper  {
+    top:320px;
+	background:none;
+	position:relative;
+	z-index:5;
+}
+
+#tranzicion div.navBulletsWrapper div 
+{
+ color:White;/*fshehja e numrit te indexit te elementit hide the index number in the bullet element*/
+}
+
+#tranzicion div.tranzicionInner {
+	overflow:hidden; 
+	position:absolute; top:0; left:0;
+}
